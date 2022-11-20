@@ -13,5 +13,8 @@ def react(player: Player, enemy: Enemy):
             enemy.y -= movement
         if enemy.y < player.y:
             enemy.y += movement
-
+    # For later AI
+    # entity_x_difference = abs(player.x - enemy.x)
+    # entity_y_difference = abs(player.y - enemy.y)
+    # total_distance = entity_x_difference + entity_y_difference
     enemy_charge()
